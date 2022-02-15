@@ -8,6 +8,10 @@
         </form>
     </div>
     <div>List of message</div>
+    <form method="post" action="filter">
+        <input type="text" name="filter">
+        <button type="submit">Find</button>
+    </form>
     {{#messages}}
         <div>
             <b>{{id}}</b>
